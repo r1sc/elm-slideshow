@@ -1,0 +1,74 @@
+{
+    "slides": [
+        {
+            "pos": {
+                "x": 0,
+                "y": 0
+            },
+            "body": "![](http://xahlee.info/UnixResource_dir/gki/elm_logo.png)\n### En kort introduktion\n_http://elm-lang.org_"
+        },
+        {
+            "pos": {
+                "x": 1000,
+                "y": 1000
+            },
+            "body": "# Vad är Elm?\n**Elm** är ett funktionellt programmeringsspråk för frontend webutveckling.\n\nElm är dels ett eget **språk**, men också ett **ramverk** för att köra sina program i browsern.\n\nProgrammen körs i **Elm Runtime** i browsern."
+        },
+        {
+            "pos": {
+                "x": 3000,
+                "y": 1000
+            },
+            "body": "# So what? Vem bryr sig? Yet another JS@##!%...\nSå här beskriver elm-lang.org det hela:\n\n> Forget what you have heard about functional programming. Fancy words, weird ideas, bad tooling. Barf. Elm is about:\n* No runtime errors in practice. No ```null```. No ```undefined``` is not a function.\n* Friendly error messages that help you add features more quickly.\n* Well-architected code that stays well-architected as your app grows."  
+        },
+        {
+            "pos": {
+                "x": 3000,
+                "y": 2000
+            },
+            "body": "# Fancy words?\n> No combination of JS libraries can ever give you this, yet it is all free and easy in Elm. Now these nice things are only possible because Elm builds upon 40+ years of work on typed functional languages. So Elm is a functional language because the practical benefits are worth the couple hours you'll spend reading this guide."
+        },
+        {
+            "pos": {
+                "x": 5000,
+                "y": 1000
+            },
+            "body": "# Funktionell programmering vs imperativ programmering\nImperativa språk = Hur datorn ska utföra **uppgifter** (algoritmer) och hur **tillstånd** ska hanteras.\n\nFunktionella språk = Vi **beskriver** vilket **data** vi vill ha."
+        },
+        {
+            "pos": {
+                "x": 3000,
+                "y": 3000
+            },
+            "body": "# State?\nMan brukar prata om **Immutable state** == oföränderligt tillstånd.\n\nAllt i Elm är immutable. Man kan inte skriva över en variabel. In fact... det *finns inga* variabler. Allt är funktioner (som är data).\n\nEh kan man ens göra ett program utan att ändra på en enda variabel?!"
+        },
+        {
+            "pos": {
+                "x": 3000,
+                "y": 4000
+            },
+            "body": "What if I told you... <h1 style='text-align: center'>Ja</h1>\n![](https://media.giphy.com/media/g1a84q6RBSMrS/giphy.gif)"
+        },
+        {
+            "pos": {
+                "x": 5000,
+                "y": 4000
+            },
+            "body": "# Notation\nC#: ```int AgeOf(Employee employee){...}```\n\nElm: ```ageOf : Employee -> Int```, anropas som ```ageOf employee```\n\nFlera parametrar: ```area : Int -> Int -> Int``` anropas som ```area 5 7```\n\nEtt exempel:\n\n```\narea : Int -> Int -> Int\narea width height =\n\twidth * height\n\n```"
+        },
+        {
+            "pos": {
+                "x": 1000,
+                "y": 4000
+            },
+            "body": "# Vad sålde mig?\n\n[Gå hit](http://guide.elm-lang.org)"
+        },
+        {
+            "pos": {
+                "x": 0,
+                "y": 2000
+            },
+            "body": "# Insats\n Att lära sig FP kräver praktisk övning. Vilket vi ska göra nu!\n\n![](http://i0.kym-cdn.com/photos/images/original/001/292/051/bd3.jpg)\n> Don't be afraid. This is not scary! This is stuff you already know.\n\n>Brian Beckman, Microsoft"
+        }
+    ]
+}
